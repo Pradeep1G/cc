@@ -31,8 +31,8 @@ function GetCgpaData(dpt, num){
             // setsemno(semno)
             // const semno = props.semnum
             // fetch("https://gpaserverx.onrender.com/course/CSEsem"+props.semnum).catch(err => console.warn(err))
-            // const response = await Axios.get("https://gpaserverx.onrender.com/course/"+dptname+"sem"+semnum); 
-            const response = await Axios.get("http://localhost:3005/course/"+dptname+"sem"+semnum); 
+            const response = await Axios.get("https://cgpadb.onrender.com/course/"+dptname+"sem"+semnum); 
+            // const response = await Axios.get("http://localhost:3005/course/"+dptname+"sem"+semnum); 
 
             setcourse(response.data)
             console.log(response.data)
