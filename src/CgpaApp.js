@@ -133,7 +133,7 @@ subjectpartialcredits = []
       <h1>{props.semnum}</h1> */}
 
       <div className='SubjectsBlock'>
-      <h2> Enter Marks Till Semester - {props.semnum}</h2>
+      <h3> Enter Marks Till Semester - {props.semnum}</h3>
     <form onSubmit={changeHandle}>
 
     <div className="cpgpadiv">
