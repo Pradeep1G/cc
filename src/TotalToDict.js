@@ -1,5 +1,5 @@
 import GetCgpaData from "./getCgpaData";
-import Getdataarray from "./getData";
+// import Getdataarray from "./getData";
 
 
 function TotalTodict(props){
