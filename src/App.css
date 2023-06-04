@@ -106,12 +106,15 @@ h1{
 }
 
 .SubjectsBlock h3{
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 @media screen and (max-width:650px){
 #creditnote{
   padding-bottom: var(--creditnotepadding);
+}
+.SubjectsBlock h3{
+  font-weight: bolder;
 }
 }
 
@@ -151,7 +154,7 @@ h1{
 
 
 @media screen and (max-height:900px) {
-.creditnotecgpa{
+#creditnotecgpa{
 
   padding-bottom: 100px;
 
