@@ -97,6 +97,7 @@
     .inputmarks{
         font-size: small;
         /* width: max-content; */
+        margin-bottom: 16px;
     }
 }
 
