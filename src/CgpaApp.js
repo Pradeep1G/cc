@@ -163,7 +163,7 @@ subjectpartialcredits = []
       {(modalOpen && <Modal gradepoints={cgpa<=10? cgpa: '100'} semnum={props.semnum} type="Cumulative"/>)}
       
 </form>
-  <p id="creditnote">* All elective subjects have 3 credits.</p>
+  <p id="creditnotecgpa">* All elective subjects have 3 credits.</p>
 
 
 </div>
