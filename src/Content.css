@@ -1,0 +1,176 @@
+.Block{
+  display: flex;
+  justify-content: space-around;
+}
+.App{
+    /* height: 500px; */
+    /* margin-top: 15%; */
+    /* justify-content: space-around; */
+    
+    position: absolute;
+    top: 40%;
+    /* left: 10rem; */
+    /* right: 50%; */
+}
+
+
+#contentx{
+    border-color: #831238;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #content{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }  
+
+  @import "rsuite/dist/rsuite.css";
+
+
+
+
+
+
+
+
+  .titleBox {
+    /* margin-top: 15%; */
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+  .title {
+    cursor: pointer;
+    width: 230px;
+    padding: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #831238;
+    border:  black;
+    border-radius: 10px;
+  }
+  .dropItems {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+  }
+  .items {
+    overflow-y: scroll;
+    background-color: #FDF4F5;
+  
+    /* padding: 10px 50px 10px 10px; */
+    padding-top: 10px;
+    border: 5px black;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  
+  .items a {
+    padding: 10px 50px 8px 10px;
+    color: black;
+    text-decoration: none;
+  }
+  .items a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #FFABAB;
+  }
+
+
+
+  /* @media (min-width: 300px) and  (max-width:800px)  {
+    .titleBox{
+      margin-top: 35%;
+    }
+  
+} */
+
+/* @media (min-height: 400px) and  (max-height:800px) and (max-width:600px) and (min-width:300px) {
+  .App{
+    margin-top: 35%;
+  }
+
+} */
+
+
+
+.CalciContainer{
+
+  
+    width: 180px;
+    padding: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border:  black;
+  text-align: center;
+
+    
+
+}
+
+.CalciContainer a{
+    background-color: #831238;
+    border-radius: 10px;
+    
+
+   
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* .dropdown{
+    min-width: 5em;
+    position: relative;
+  
+  }
+  .dropdown *{
+    box-sizing: border-box;
+  }
+
+  #dropdown-basic{
+    border-color: #831238;
+    border-width: 0px;
+    background-color: #831238;
+  }
+  
+  #dropdown-basic:hover{
+    border-color: #831238;
+    border-width: 0px;
+    background-color: #9e1c3f;
+  } */
