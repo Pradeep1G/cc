@@ -152,6 +152,7 @@ subjectpartialcredits = []
     </div>
 
       <button
+      className='SubjectsBlockButton'
        type='submit'
        onClick={()=>{
         setModalOpen(true)
