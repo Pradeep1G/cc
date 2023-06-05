@@ -5,6 +5,7 @@ import CgpaApp from './CgpaApp';
 import SelectSem from './SelectSem';
 import Selectdpt from './SelectDpt';
 import SelectCalci from './SelectCalci';
+import MaintanencePage from './MaitanencePage';
 // import Selectdpt from './selectdpt';
 // import CGPA from './CGPA';
 
@@ -35,18 +36,18 @@ export default function AppRoutes() {
           <Route path="/" element={<Selectdpt />}></Route>
           <Route path="/CSE"     element={<SelectCalci dpt="CSE"/>}/>
           <Route path="/ECE"     element={<SelectCalci dpt="ECE"/>}/>
-          <Route path="/Civil"   element={<SelectCalci dpt="Civil"/>}/>
-          <Route path="/MEC"     element={<SelectCalci dpt="MEC"/>}/>
-          <Route path="/EEE"     element={<SelectCalci dpt="EEE"/>}/>
-          <Route path="/ETCE"    element={<SelectCalci dpt="ETCE"/>}/>
-          <Route path="/CSECS"   element={<SelectCalci dpt="CSECS"/>}/>
-          <Route path="/CSEAIML" element={<SelectCalci dpt="CSEAIML"/>}/>
-          <Route path="/CSEAIR"  element={<SelectCalci dpt="CSEAIR"/>}/>
-          <Route path="/CSEBCT"  element={<SelectCalci dpt="CSEBCT"/>}/>
-          <Route path="/IT"      element={<SelectCalci dpt="IT"/>}/>
-          <Route path="/CSEAI"   element={<SelectCalci dpt="CSEAI"/>}/>
-          <Route path="/CSEIOT"  element={<SelectCalci dpt="CSEIOT"/>}/>
-          <Route path="/CSEDS"   element={<SelectCalci dpt="CSEDS"/>}/>
+          <Route path="/Civil"   element={<MaintanencePage dpt="Civil"/>}/>
+          <Route path="/MEC"     element={<MaintanencePage dpt="MEC"/>}/>
+          <Route path="/EEE"     element={<MaintanencePage dpt="EEE"/>}/>
+          <Route path="/ETCE"    element={<MaintanencePage dpt="ETCE"/>}/>
+          <Route path="/CSECS"   element={<MaintanencePage dpt="CSECS"/>}/>
+          <Route path="/CSEAIML" element={<MaintanencePage dpt="CSEAIML"/>}/>
+          <Route path="/CSEAIR"  element={<MaintanencePage dpt="CSEAIR"/>}/>
+          <Route path="/CSEBCT"  element={<MaintanencePage dpt="CSEBCT"/>}/>
+          <Route path="/IT"      element={<MaintanencePage dpt="IT"/>}/>
+          <Route path="/CSEAI"   element={<MaintanencePage dpt="CSEAI"/>}/>
+          <Route path="/CSEIOT"  element={<MaintanencePage dpt="CSEIOT"/>}/>
+          <Route path="/CSEDS"   element={<MaintanencePage dpt="CSEDS"/>}/>
 
 
           {/* <Route path="/CSE" element={<SelectCalci dpt="CSE"/>}/> */}
