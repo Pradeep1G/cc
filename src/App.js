@@ -89,7 +89,7 @@ subjectpartialcredits = []
   return (
     <>
     <div className="Container">
-    {document.documentElement.style.setProperty("--position", "relative")}
+    {arranged_data.length>=8? document.documentElement.style.setProperty("--position", "relative"): document.documentElement.style.setProperty("--position", "absolute")}
     {arranged_data.length>=8? document.documentElement.style.setProperty("--creditnotepadding", "80px"): document.documentElement.style.setProperty("--creditnotepadding", "105px")}
 
 
