@@ -44,7 +44,7 @@ function SgpaApp(props) {
 
 
     for(var j=0; j<marks_list.length; j++){
-      if(data[3][j]===10){
+      if(data[3][j]==="10"){
         subjectpartialcredits.push((Number.parseInt((Number.parseInt(marks_list[j]*2)/10))+1)*(data[2][j]))
 
       }else{
